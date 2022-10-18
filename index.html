@@ -18,7 +18,7 @@
         <h1>
           <img src="./images/logo.svg" alt="Loopstudios logo">
         </h1>
-        <ul class="hidden md:flex md:flex-row font-alata text-sm text-white md:gap-5 lg:gap-8" id="desktop-nav">
+        <ul class="hidden md:flex md:flex-row font-alata text-sm text-white md:gap-5 lg:gap-8">
           <li>
             <a href="#about" class="hover-underline">About</a>
           </li>
@@ -42,32 +42,32 @@
       <div class="p-6 mt-40 font-josefin-sans text-4.5xl leading-10 uppercase overflow-auto text-white border-2 border-white md:w-1/2 lg:w-3/5 lg:my-36 lg:text-7xl">
         Immersive experiences that deliver
       </div>
-    </header>
-    <div id="mobile-nav" class="hidden top-0 left-0 w-screen h-screen bg-black px-6">
-      <div class="flex flex-row justify-between py-12">
-        <img src="./images/logo.svg" alt="Loopstudios logo">
-        <button class="w-6 h-6" id="mobile-close-btn">
-          <img src="./images/icon-close.svg" alt="close menu" class="w-6 h-6">
-        </button>
+      <div id="mobile-nav" class="hidden top-0 left-0 w-screen h-screen bg-black px-6">
+        <div class="flex flex-row justify-between py-12">
+          <img src="./images/logo.svg" alt="Loopstudios logo">
+          <button class="w-6 h-6" id="mobile-close-btn">
+            <img src="./images/icon-close.svg" alt="close menu" class="w-6 h-6">
+          </button>
+        </div>
+        <ul class="text-white uppercase text-2xl font-josefin-sans mt-12">
+          <li class="mb-3">
+            <a href="#about">About</a>
+          </li>
+          <li class="mb-3">
+            <a href="#careers">Careers</a>
+          </li>
+          <li class="mb-3">
+            <a href="#events">Events</a>
+          </li>
+          <li class="mb-3">
+            <a href="#products">Products</a>
+          </li>
+          <li class="mb-3">
+            <a href="#support">Support</a>
+          </li>
+        </ul>
       </div>
-      <ul class="text-white uppercase text-2xl font-josefin-sans mt-12" id="desktop-nav">
-        <li class="mb-3">
-          <a href="#about">About</a>
-        </li>
-        <li class="mb-3">
-          <a href="#careers">Careers</a>
-        </li>
-        <li class="mb-3">
-          <a href="#events">Events</a>
-        </li>
-        <li class="mb-3">
-          <a href="#products">Products</a>
-        </li>
-        <li class="mb-3">
-          <a href="#support">Support</a>
-        </li>
-      </ul>
-    </div>
+    </header>
     <main class="bg-white px-6 py-20 md:px-20">
       <section class="mb-10 lg:mb-[-18%]">
         <img src="./images/desktop/image-interactive.jpg" alt="vr" class="mx-auto lg:mx-0 lg:w-3/5">
@@ -89,8 +89,8 @@
             <div class="card group bg-[url('./images/mobile/image-deep-earth.jpg')] xl:bg-[url('./images/desktop/image-deep-earth.jpg')]">
               <div class="card-gradient card-hover-transition"></div>
               <h4 class="card-title card-hover-transition">
-                <div>Deep</div>
-                <div>earth</div>
+                <span class="block">Deep</span>
+                <span class="block">earth</span>
               </h4>
             </div>
           </div>
@@ -98,8 +98,8 @@
             <div class="card group bg-[url('./images/mobile/image-night-arcade.jpg')] xl:bg-[url('./images/desktop/image-night-arcade.jpg')]">
               <div class="card-gradient card-hover-transition"></div>
               <h4 class="card-title card-hover-transition">
-                <div>Night</div>
-                <div>arcade</div>
+                <span class="block">Night</span>
+                <span class="block">arcade</span>
               </h4>
             </div>
           </div>
@@ -107,8 +107,8 @@
             <div class="card group bg-[url('./images/mobile/image-soccer-team.jpg')] xl:bg-[url('./images/desktop/image-soccer-team.jpg')]">
               <div class="card-gradient card-hover-transition"></div>
               <h4 class="card-title card-hover-transition">
-                <div>Soccer</div>
-                <div>team VR</div>
+                <span class="block">Soccer</span>
+                <span class="block">team VR</span>
               </h4>
             </div>
           </div>
@@ -116,8 +116,8 @@
             <div class="card group bg-[url('./images/mobile/image-grid.jpg')] xl:bg-[url('./images/desktop/image-grid.jpg')]">
               <div class="card-gradient card-hover-transition"></div>
               <h4 class="card-title card-hover-transition">
-                <div>The</div>
-                <div>grid</div>
+                <span class="block">The</span>
+                <span class="block">grid</span>
               </h4>
             </div>
           </div>
@@ -125,8 +125,8 @@
             <div class="card group bg-[url('./images/mobile/image-from-above.jpg')] xl:bg-[url('./images/desktop/image-from-above.jpg')]">
               <div class="card-gradient card-hover-transition"></div>
               <h4 class="card-title card-hover-transition">
-                <div>From up</div>
-                <div>above vr</div>
+                <span class="block">From up</span>
+                <span class="block">above vr</span>
               </h4>
             </div>
           </div>
@@ -134,8 +134,8 @@
             <div class="card group bg-[url('./images/mobile/image-pocket-borealis.jpg')] xl:bg-[url('./images/desktop/image-pocket-borealis.jpg')]">
               <div class="card-gradient card-hover-transition"></div>
               <h4 class="card-title card-hover-transition">
-                <div>Pocket</div>
-                <div>borealis</div>
+                <span class="block">Pocket</span>
+                <span class="block">borealis</span>
               </h4>
             </div>
           </div>
@@ -143,8 +143,8 @@
             <div class="card group bg-[url('./images/mobile/image-curiosity.jpg')] xl:bg-[url('./images/desktop/image-curiosity.jpg')]">
               <div class="card-gradient card-hover-transition"></div>
               <h4 class="card-title card-hover-transition">
-                <div>The</div>
-                <div>curiosity</div>
+                <span class="block">The</span>
+                <span class="block">curiosity</span>
               </h4>
             </div>
           </div>
@@ -152,8 +152,8 @@
             <div class="card group bg-[url('./images/mobile/image-fisheye.jpg')] xl:bg-[url('./images/desktop/image-fisheye.jpg')]">
               <div class="card-gradient card-hover-transition"></div>
               <h4 class="card-title card-hover-transition">
-                <div>Make it</div>
-                <div>fisheye</div>
+                <span class="block">Make it</span>
+                <span class="block">fisheye</span>
               </h4>
             </div>
           </div>
@@ -189,22 +189,22 @@
       <div>
         <ul class="flex flex-row justify-center gap-6 mb-6 lg:justify-end">
           <li class="footer-icon">
-            <a href="https://facebook.com" target="_blank" class="hover-underline">
+            <a href="https://facebook.com" target="_blank" class="hover-underline" aria-label="Link to facebook">
               <i class="fab fa-facebook-square"></i>
             </a>
           </li>
           <li class="footer-icon">
-            <a href="https://twitter.com" target="_blank" class="hover-underline">
+            <a href="https://twitter.com" target="_blank" class="hover-underline" aria-label="Link to twitter">
               <i class="fab fa-twitter "></i>
             </a>
           </li>
           <li class="footer-icon">
-              <a href="https://pinterest.com" target="_blank" class="hover-underline">
+              <a href="https://pinterest.com" target="_blank" class="hover-underline" aria-label="Link to pinterest">
                 <i class="fab fa-pinterest"></i>
               </a>
             </li>
           <li class="footer-icon">
-              <a href="https://instagram.com" target="_blank" class="hover-underline">
+              <a href="https://instagram.com" target="_blank" class="hover-underline" aria-label="Link to instagram">
                 <i class="fab fa-instagram"></i>
               </a>
             </li>
